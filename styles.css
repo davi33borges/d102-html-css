@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(78, 146, 248);
+}
+
+.nav-header a{
+    text-decoration: none;
+}
+
+.cor-vermelha{
+    color: red;
+}
+
+#header-pesquisa{
+    color: green;
+}
+
+/* Placeholder é um pseudoelemento, e só exista quando há uma tag input */
+#header-pesquisa::placeholder{
+    color: aqua;
+}
