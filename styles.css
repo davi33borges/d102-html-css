@@ -19,7 +19,41 @@ header{
     color: green;
 }
 
+textarea{
+    resize: none;
+}
+
+.formulario-contato{
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 15px rgba(255, 0, 0, 0.1);
+}
+
 /* Placeholder é um pseudoelemento, e só exista quando há uma tag input */
 #header-pesquisa::placeholder{
     color: aqua;
+}
+
+.formulario-contato, .formulario-contato h3{
+    font-size: 18pt
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.negrito:hover{
+    color: lawngreen;
+}
+
+img{
+    opacity: 00.5;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+button{
+    cursor: pointer;
 }
